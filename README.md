@@ -11,7 +11,8 @@ Develop a python code that integrates multiple AI tool by interacting with their
 The aim is to understand how to request help from AI tools for tasks like writing Python code, integrating with APIs, comparing outputs, and generating actionable insights.
 
 <h3>Code:</h3> 
-'''
+
+```
 from nltk.sentiment import SentimentIntensityAnalyzer
 import nltk
 
@@ -35,9 +36,14 @@ if sentiment['compound'] > 0:
     print("\nInsight: The review is positive and suitable for marketing promotion.")
 else:
     print("\nInsight: The review tone is neutral or negative.")
-'''
-<h3>Outputs:</h3>
+
+```
+
+
+## output:
+
 <h4>output 1:</h4>
+
 Generated Review:
 
 This smartphone offers outstanding battery life and an intelligent AI camera that captures stunning photos.
